@@ -76,9 +76,9 @@ An interactive and immersive system for exploring, managing, and appreciating a 
 **Strong database constraints**:
 - Primary key, unique, and not null constraints for critical fields
 - Foreign key for relationships
-  -- Artwork -> Artist (ON DELETE RESTRICT)
-  -- Gallery -> Artist (ON DELETE SET NULL)
-  -- UserFavoriteArtwork and ArtworkGallery both use a **composite primary key** and ON DELETE CASCADE for clean relational handling.
+  - Artwork -> Artist (ON DELETE RESTRICT)
+  - Gallery -> Artist (ON DELETE SET NULL)
+  - UserFavoriteArtwork and ArtworkGallery both use a **composite primary key** and ON DELETE CASCADE for clean relational handling.
 
 ## Technologies Used:
 - Python
